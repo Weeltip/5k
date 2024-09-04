@@ -903,7 +903,10 @@ footer {
   padding: 0px 70px 95px 70px ;
   position: relative;
 }
-
+.belet h1{
+  left: 77%;
+  top: 10%;
+}
 .belet__container{
   background-image: url('../img/fon2.png');
   background-repeat: no-repeat;
@@ -919,8 +922,8 @@ footer {
 }
 .char{
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 148px;
+  left: 73px;
   width: 364px;
   height: 244px;
   z-index: 2;
@@ -928,7 +931,7 @@ footer {
 .time2{
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -54px;
   z-index: 2;
 }
 .belet__top p{
@@ -938,13 +941,14 @@ footer {
   color: #fff;
 }
 .belet__top-btn{
-  margin-top: 76px;
+  margin-top: 63px;
 }
 .belet__top-btn a:nth-of-type(1){
   font-size: 20px;
   line-height: 50px;
   padding: 13px 43px;
   background: #C0932C;
+  text-transform: uppercase;
   color: #fff;
   box-shadow: 0px 0px 4px 1px #FBFBFB inset;
 
@@ -953,6 +957,7 @@ footer {
   font-size: 20px;
   line-height: 50px;
   padding: 13px 40px;
+  text-transform: uppercase;
   background: #E7E5DF;
   color: #2F499B;
   box-shadow: 0px 0px 4px 1px #FBFBFB inset;
@@ -961,18 +966,22 @@ footer {
 .belet__bot{
   box-shadow: 0px 10px 20px 0px #00000040;
   background: #FFFFFF61;
+  margin-left: 40px;
+  max-width: 905px;
+  margin-top: -23px;
   padding: 30px 61px 32px 45px;
 }
 .belet__bot h4{
   font-size: 40px;
   line-height: 50px;
   color: #2F499B;
-
+  margin-bottom: 41px;
+  font-family: 'vezitsacyrillic';
 }
 .belet__bot p{
   font-size: 24px;
   line-height: 34px;
-
+  margin-bottom: 40px;
 
 }
 .belet__bot-btn {
@@ -986,29 +995,32 @@ font-size: 24px;
 line-height: 34px;
 padding: 20px 36px;
 background: #E1CE9E;
-
+border-radius: 5px;
 }
 .belet__bot-btn a span{
   font-size: 34px;
   line-height: 34px;
   color: #A21C26;
 
+
 }
+
 .belet__bot span{
 font-size: 20px;
 line-height: 34px;
-
+margin-bottom: 10px;
 }
 .belet__bot h5{
   font-size: 20px;
   line-height: 34px;
   color: #2F499B;
-
+  margin-top: 10px;
   }
   .belet__bot h6{
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-top: 10px;
     }
     .belet__bot h6 span{
       font-size: 20px;
@@ -1018,8 +1030,15 @@ line-height: 34px;
 .belet h2{
   margin: 0;
   margin-left: 110px;
-  margin-bottom: 110px;
-  margin-top: 117px;
+  margin-bottom: 113px;
+margin-top: -271px;
+  font-size: 80px;
+  line-height: 90px;
+  text-transform: inherit;
+}
+.belet h2 span:nth-of-type(2){
+  right: -165px;
+  bottom: -88px;
 }
 /* belet ===============================================================================================*/
 /* main =========================================================================================*/
